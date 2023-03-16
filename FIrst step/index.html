@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>By trend</title>
+    <link rel="shortcut icon" href="./IMG//Exclusion 1.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="nav-left">
+                    <a href="#"><img src="./IMG/logo (1).svg" alt=""></a>
+                </div>
+                <div class="nav-right" id="navbar-responsive">
+                    <a class="noborder-menu" href="">Services</a>
+                    <a class="noborder-menu" href="">About </a>
+                    <a class="noborder-menu" href="">Contacts</a>
+                    <a class="border-menu" href="../Log in/login.html">Log in</a>
+                    <a class="border-menu" href="">Open an account</a>
+                    <a class="border-menu" href="" style="padding-right: 30px;">EN</a>
+                
+            </nav>
+        
+        </div>
+    </header>
+    <hr>
+    <main>
+        <div class="container">
+            <div class="first-step">
+                <div class="first-step-title">
+                    <img src="./IMG/logo (1).svg" alt="">
+                    <h1>Welcome to ByTrend!</h1>
+                    <p style="display: inline-block;">Already have an account?</p>
+                    <a href="../Log in/login.html">Log in</a>
+                </div>
+                <div class="first-step-body">
+                    <form action="">
+                        <div class="names">
+                            <div class="first-name">
+                                <label for="f-name">First name*</label><br>
+                                <input
+                                 type="text"
+                                 id="f-name"
+                                 name="f-name"
+                                 value="Nodirbek"
+                                 placeholder="Your name"
+                                 required 
+                                 oninvalid="this.setCustomValidity('Ismingizni kiriting !')">
+                            </div>
+                            <div class="last-name">
+                                <label for="l-name">Last name*</label><br>
+                                <input
+                                 type="text"
+                                 id="l-name"
+                                 name="l-name"
+                                 placeholder="Your surname" required>
+                            </div>
+                        </div>
+
+                        <div class="birthday">
+                            <label for="birthday">Birthday*</label><br>
+                            <input
+                             type="date"
+                             max="2022-01-01"
+                             min="1941-12-31"
+                             id="birthday"
+                             name="b-day"
+                             required>
+                        </div>
+                        <p style="margin: 10px 0;">Gender</p>
+                        <div class="gender">
+                            <div style="margin-right: 7.5px;" class="gender-child">
+                                <input
+                                 type="radio"
+                                 id="female"
+                                 name="gender"
+                                 required>
+                                <label for="female">Female</label>
+                            </div>
+                            <div style="margin-left: 7.5px;" class="gender-child">
+                                <input
+                                 type="radio"
+                                 id="male"
+                                 name="gender"
+                                 required>
+                                <label for="male">Male</label>
+                            </div>
+                        </div>
+                        <div class="skype">
+                            <label for="skype">Skype</label><br>
+                            <input
+                             type="text"
+                             id="skype"
+                             name="skype"
+                             placeholder="Your login Skype"
+                             required>
+                        </div>
+                        <div class="password">
+                            <label for="password">Promo</label><br>
+                            <input
+                            required
+                             type="password"
+                             id="password"
+                             name="password"
+                             placeholder="Your promo">
+                        </div>
+                        <button class="sec1-btn" type="submit" required><a href="../Second step/second-step.html">Continue <img style="margin-left: 10px;" src="./IMG/Group 29.svg" alt=""></a></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p style="text-align: center; padding: 0 0 72px; font-family: 'Philosopher';">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+    </footer>
+</body>
+
+</html>
